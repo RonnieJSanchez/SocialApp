@@ -2,9 +2,10 @@
     * {
   box-sizing: border-box;
 }
+body{
+  margin: 0%;
+}
 
-
-/* Create three equal columns that floats next to each other */
 .column {
     max-width: 23vw;
     width: 23%; 
@@ -23,4 +24,14 @@
   content: "";
   display: table;
   clear: both;
+}
+nav{
+  display: relative;
+  text-align:center;
+  overflow: hidden;
+
+}
+#makeup{
+  background-image: url(https://images.pexels.com/photos/922470/pexels-photo-922470.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
 }
