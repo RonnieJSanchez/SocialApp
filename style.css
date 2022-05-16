@@ -34,4 +34,5 @@ nav{
 #makeup{
   background-image: url(https://images.pexels.com/photos/922470/pexels-photo-922470.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
   background-size: cover;
+  background-position: bottom;
 }
