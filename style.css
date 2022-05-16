@@ -8,24 +8,6 @@ body{
   
 }
 
-.column {
-    max-width: 23vw;
-    width: 23%; 
-    min-width:23vw;
-    max-height: 100vh;
-    height: 100%; 
-    min-height:100vh;
-    margin: 15px;
-    padding:5%;
-    float:left; 
-    display: inline;
-
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 #moth{
   border-radius: 50%;
   max-width: 7%;
@@ -50,9 +32,30 @@ body{
 #makeup{
   background-image: url(assets/makeup.jpg);
   background-size: relative;
+  width: 25%;
+  height: 800px;
 }
 #fashion{
   background-image: url(assets/sktch.jpg);
   background-position: bottom;
   background-size: cover;
+  width: 25%;
+  height: 800px;
+}
+#accessories{
+  background-image: url(assets/accessories.jpg);
+  background-size: cover;
+  width: 25%;
+  height: 800px;
+}
+#underrated{
+  width: 25%;
+  height: 800px;
+}
+.container{
+  display: flex block;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: center;
+
 }
