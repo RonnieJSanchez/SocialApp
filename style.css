@@ -1,0 +1,61 @@
+
+    * {
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  background-color:black;
+  
+}
+
+#moth{
+  border-radius: 50%;
+  max-width: 7%;
+  max-height: 7%;
+}
+
+.topnav-right {
+  float: right;
+}
+.btn{
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  color: #DBD3C9;
+  width: 200px;
+  height: 50px;
+}
+.btn:hover{
+  background-color: #3A3335;
+}
+#makeup{
+  background-image: url(assets/makeup.jpg);
+  background-size: relative;
+  width: 25%;
+  height: 800px;
+}
+#fashion{
+  background-image: url(assets/sktch.jpg);
+  background-position: bottom;
+  background-size: cover;
+  width: 25%;
+  height: 800px;
+}
+#accessories{
+  background-image: url(assets/accessories.jpg);
+  background-size: cover;
+  width: 25%;
+  height: 800px;
+}
+#underrated{
+  width: 25%;
+  height: 800px;
+}
+.container{
+  display: flex block;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: center;
+
+}
