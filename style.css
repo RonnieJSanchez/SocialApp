@@ -4,6 +4,8 @@
 }
 body{
   margin: 0%;
+  background-color:black;
+  
 }
 
 .column {
@@ -13,26 +15,44 @@ body{
     max-height: 100vh;
     height: 100%; 
     min-height:100vh;
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+    padding:5%;
     float:left; 
-    display: inline;/* Should be removed. Only for demonstration */
-}
+    display: inline;
 
-/* Clear floats after the columns */
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-nav{
-  display: relative;
-  text-align:center;
-  overflow: hidden;
+#moth{
+  border-radius: 50%;
+  max-width: 7%;
+  max-height: 7%;
+}
 
+.topnav-right {
+  float: right;
+}
+.btn{
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  color: #DBD3C9;
+  width: 200px;
+  height: 50px;
+}
+.btn:hover{
+  background-color: #3A3335;
 }
 #makeup{
-  background-image: url(https://images.pexels.com/photos/922470/pexels-photo-922470.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  background-size: cover;
+  background-image: url(assets/makeup.jpg);
+  background-size: relative;
+}
+#fashion{
+  background-image: url(assets/sktch.jpg);
   background-position: bottom;
+  background-size: cover;
 }
